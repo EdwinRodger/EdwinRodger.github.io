@@ -1,12 +1,18 @@
-import Header from "./Header/Header"
-import Main from "./Main/Main"
-import Footer from "./Footer/Footer"
+// import routing
+import { Routes, Route } from "react-router-dom";
+import { HomePage, AboutPage, ContactPage, BlogsPage, PortfolioPage } from "./pages";
+
 function App() {
     return (
         <>
-            <Header />
-            <Main />
-            <Footer />
+            <Routes>
+                <Route path="*" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/portfolio" element={<PortfolioPage />} />
+                <Route path="/blog" element={<BlogsPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+            </Routes>
         </>
     )
 }

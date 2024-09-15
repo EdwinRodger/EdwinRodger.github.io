@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-wrapper {
+    flex: 1; /* This will ensure HomePageContent grows to fill the available space */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
