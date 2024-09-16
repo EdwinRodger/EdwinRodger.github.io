@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <div className='bg-black'>
+        <div className={`bg-black ${props.styles}`}>
             <div className="container">
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-3">
                     <div className="col-md-4 d-flex align-items-center">
@@ -16,7 +16,7 @@ const Footer = () => {
                     </ul>
                 </footer>
             </div>
-        </div>
+        </div >
     )
 }
 
