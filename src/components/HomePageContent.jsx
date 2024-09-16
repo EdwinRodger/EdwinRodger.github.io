@@ -1,6 +1,6 @@
 function HomePageContent() {
     const imgDivStyle = {
-        backgroundImage: `url(https://i.imgur.com/JTONJ8A.jpeg)`,
+        backgroundImage: `url(https://i.imgur.com/QddRjfZ.jpeg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         flex: 1,
